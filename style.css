@@ -14,6 +14,7 @@ body{
     font-style: normal;
     font-weight: 400;
     font-size: 1.2rem;
+    min-width: 1340px;
 }
 
 /* ======================== Star Main Area ================ */
@@ -58,18 +59,16 @@ body{
     color: hsl(25, 47%, 15%);
 }
 
-.chart{
-    cursor: pointer;
-}
-
 .info-para{
     margin-top: 20px;
     color: hsl(28, 10%, 53%);
 }
 
 .chart {
-    margin-top: 20px;
-  }
+    cursor: pointer;
+    margin-top: 50px;
+    background-color: hsl(33, 100%, 98%);
+}
 
   
 
@@ -135,5 +134,16 @@ hr{
   /* ======================== End Footer Area ================ */
   
   /* ======================== Start Media Querry Area ================ */
+
+  @media screen and (max-width: 768px){
+
+    body{
+        min-width: fit-content;
+    }
+
+    .head, .info{
+        margin-left: 0;
+    }
+  }
 
   /* ======================== End Media Querry Area ================ */

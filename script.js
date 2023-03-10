@@ -44,7 +44,7 @@ fetch('data.json')
         legend: {
           display: false
         }
-      }
+      },
     });
   })
   .catch(error => console.error(error));
