@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 1em;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "DM Sans";
+    background-color: hsl(27, 66%, 92%);
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+/* ======================== Star Main Area ================ */
+
+.site{
+    padding: 2.4rem 1.4rem;
+    margin-top: 50px;
+}
+/* ======================== Start Head Area ================ */
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    max-width: 35rem;
+    background-color: hsl(10, 79%, 65%);
+    padding: 30px;
+    border-radius: 25px;
+    margin-left: 400px;  
+    text-align: start;
+    align-items: center;
+    color: hsl(33, 100%, 98%);
+}
+
+.my-h1{
+    margin-top: 20px;
+}
+
+/* ======================== End Head Area ================ */
+/* ======================== Start Info Area ================ */
+
+.info{
+    max-width: 35rem;
+    margin-top: 30px;
+    border-radius: 25px;
+    background-color: hsl(33, 100%, 98%);
+    margin-left: 400px;
+    padding: 30px;
+    text-align: start;
+}
+
+.info-h2{
+    color: hsl(25, 47%, 15%);
+}
+
+.chart{
+    cursor: pointer;
+}
+
+.info-para{
+    margin-top: 20px;
+    color: hsl(28, 10%, 53%);
+}
+
+.chart {
+    margin-top: 20px;
+  }
+
+  
+
+hr{
+    margin-top: 30px;
+    background-color: #f8e9dd;
+    height: 0.1333333333rem;
+}
+
+.price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.price-h2{
+    color: hsl(25, 47%, 15%);
+    font-size: 3rem;
+}
+
+.rise{
+    text-align: end;
+}
+
+.rise-h4{
+    color: hsl(25, 47%, 15%);
+}
+
+.rise-para{
+    color: hsl(28, 10%, 53%);
+    margin-top: 5px;
+}
+
+/* ======================== End Info Area ================ */
+/* ======================== End Main Area ================ */
+
+/* ======================== START Footer Area ================ */
+
+.foot {
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    color: hsl(35, 77%, 62%);
+    justify-content: center;
+    background-color: black;
+    padding: 5px;
+    margin-top: 70px;
+  }
+  
+.foot a {
+    color: hsl(5, 85%, 63%);
+    text-decoration: none;
+}
+
+.foot a:hover{
+    color: white;
+}
+  
+  
+  /* ======================== End Footer Area ================ */
+  
+  /* ======================== Start Media Querry Area ================ */
+
+  /* ======================== End Media Querry Area ================ */
