@@ -27,6 +27,7 @@ fetch('data.json')
       data: {
         labels: days,
         datasets: [{
+          label: 'Expenses',
           data: amounts,
           backgroundColor: barColors,
           barThickness: 45 // Width of each bar
